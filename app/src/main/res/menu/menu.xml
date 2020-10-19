@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menupastel"
+        android:enabled="true"
+        android:icon="@drawable/ic_pastel"
+        android:title="@string/pastel"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menuherramientas"
+        android:enabled="true"
+        android:icon="@drawable/ic_herramientas"
+        android:title="@string/herramientas"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menucubiertos"
+        android:enabled="true"
+        android:icon="@drawable/ic_cubiertos"
+        android:title="@string/cubiertos"
+        app:showAsAction=""/>
+
+    <item
+        android:id="@+id/menubalones"
+        android:enabled="true"
+        android:icon="@drawable/ic_balones"
+        android:title="@string/balones"
+        app:showAsAction="ifRoom"/>
+</menu>
